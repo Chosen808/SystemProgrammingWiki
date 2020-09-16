@@ -1,6 +1,6 @@
 # Overview
 
-A process is program that is running, kinda. A process is also just one instance of that computer program running. Processes have a lot of things at their disposal. At the start of each program you get one process, but each program can make more processes. In fact, your operating system starts up with only one process and all other processes are forked off of that -- all of that is done under the hood when booting up.
+A process is an instance of a running program. Processes have a lot of things at their disposal. At the start of each program you get one process, but each program can make more processes. In fact, your operating system starts up with only one process and all other processes are forked off of that -- all of that is done under the hood when booting up.
 
 ## Okay, but what's a program?
 

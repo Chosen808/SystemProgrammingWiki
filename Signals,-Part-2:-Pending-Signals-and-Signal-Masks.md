@@ -48,14 +48,6 @@ Note pending signals for the child are _not_ inherited during forking.
 ## What happens during exec?
 Both the signal mask and the signal disposition carries over to the exec-ed program. [https://www.gnu.org/software/libc/manual/html_node/Executing-a-File.html#Executing-a-File](Source) Pending signals are preserved as well.  Signal handlers are reset, because the original handler code has disappeared along with the old process.
 
-## What happens during fork?
-The child process inherits a copy of the parent process's signal disposition and a copy of the parent's signal mask.
-
-For example if `SIGINT` is blocked in the parent it will be blocked in the child too.
-For example if the parent installed a handler (call-back function) for SIG-INT then the child will also perform the same behavior.
-
-Pending signals however are not inherited by the child.
-
 ## How do I block signals in a single-threaded program?
 Use `sigprocmask`! With sigprocmask you can set the new mask, add new signals to be blocked to the process mask, and unblock currently blocked signals. You can also determine the existing mask (and use it for later) by passing in a non-null value for oldset.
 

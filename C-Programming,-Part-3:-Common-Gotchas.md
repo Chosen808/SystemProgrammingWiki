@@ -137,7 +137,7 @@ int main(void){
   for (size_t i = 0; i < 3; ++i)
     strings[i] = getline(&line, &linecap, stdin) >= 0 ? line : "";
 
-  // this prints out "3\n3\n\3" instead of "3\n\2\n1\n"
+  // this prints out "3\n3\n\3n" instead of "3\n\2\n1\n"
   for (size_t i = 3; i--;) // i=2,1,0
     printf("%s", strings[i]);
 }

@@ -10,7 +10,7 @@ Here's a complete example that doesn't work! The child reads one byte at a time 
 int main() {
     int fd[2];
     pipe(fd);
-    // You must read from fd[0] and write from fd[1]
+    // You must read from fd[0] and write to fd[1]
     printf("Reading from %d, writing to %d\n", fd[0], fd[1]);
 
     pid_t p = fork();

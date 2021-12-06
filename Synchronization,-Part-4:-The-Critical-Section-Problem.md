@@ -173,7 +173,7 @@ Oh... you decided to keep reading. Well, here be dragons! Don't say we didn't wa
 Consider the following code,
 
 ```C
-while(flag2 ) { /* busy loop - go around again */
+while(flag2 ) { } /* busy loop - go around again */
 ```
 An efficient compiler would infer that `flag2` variable is never changed inside the loop, so that test can be optimized to `while(true)` 
 Using `volatile` goes someway to prevent compiler optimizations of this kind.

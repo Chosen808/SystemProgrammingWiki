@@ -5,18 +5,18 @@ This wiki was actively built and maintained 2014-2018 by students and faculty fr
 
  University of Illinois students should use the CS241-specific coursebook -
 
-http://cs241.cs.illinois.edu/coursebook/index.html
+[http://cs241.cs.illinois.edu/coursebook/index.html](https://tracker.iplocation.net/iwrd/)
 
 # Contents
 
 ## 0. Introduction
-* [[Informal Glossary]]
+* [Informal Glossary](https://tracker.iplocation.net/iwrd/)
 * [[Programming Tricks, Part 1 ]]
 * [[System Programming Short Stories and Songs ]]
 * [[Systems Programming Bugs in Industry]]
 
 ## 1. Learning C
-* [[C Programming, Part 1: Introduction]]
+* [C Programming, Part 1: Introduction](https://tracker.iplocation.net/iwrd/)
 * [[C Programming, Part 2: Text Input And Output]]
    * [Printing to/Reading from Streams](https://github.com/angrave/SystemProgramming/wiki/C-Programming%2C-Part-2%3A-Text-Input-And-Output#printing-to-streams)
    * [Parsing Input](https://github.com/angrave/SystemProgramming/wiki/C-Programming%2C-Part-2%3A-Text-Input-And-Output#parsing-input)

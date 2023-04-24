@@ -24,8 +24,9 @@ int getHiscore(char* game) {
   write(fd, buffer, strlen(buffer) );
 
   // Wait for the server to send a response
-  ssize_t bytesread = read(fd, buffer, sizeof(buffer));
+  ssize_t bytesread = read(fd, buffer, 8); // we know buffer will be at least 8 bytes and that's sufficient.
 
+  // No error checking in this example!
   // Example: unmarshal the bytes received back from text into an int
   buffer[bytesread] = 0; // Turn the result into a C string
 

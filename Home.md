@@ -5,7 +5,7 @@ This wiki was actively built and maintained 2014-2018 by students and faculty fr
 
  University of Illinois students should use the CS241-specific coursebook -
 
-http://cs241.cs.illinois.edu/coursebook/index.html
+http://cs341.cs.illinois.edu/coursebook/index.html
 
 # Contents
 
